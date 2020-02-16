@@ -52,7 +52,7 @@ carousel();
 
 function carousel() {
   var i;
-  var x = document.getElementsByClassName("mySlides");
+  var x = document.getElementsByClassName("mySlide");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
