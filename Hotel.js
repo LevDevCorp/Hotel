@@ -47,7 +47,9 @@ function showSlides() {
 
 //background slideshow
 
-var myIndex = 0;
+
+
+var myIndex1 = 0;
 carousel();
 
 function carousel() {
@@ -56,9 +58,9 @@ function carousel() {
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
+  myIndex1++;
+  if (myIndex1 > x.length) {myIndex1 = 1}    
+  x[myIndex1-1].style.display = "block";  
   setTimeout(carousel, 15000);    
 }
 
